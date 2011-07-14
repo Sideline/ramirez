@@ -7,6 +7,7 @@ group 'development' do
   gem 'guard-rails'
   gem 'guard-bundler'
   gem 'guard-migrate'
+  gem 'guard-test'
   gem 'growl'
   gem 'rb-fsevent'
 end
