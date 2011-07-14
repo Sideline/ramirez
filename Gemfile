@@ -10,3 +10,7 @@ group 'development' do
   gem 'growl'
   gem 'rb-fsevent'
 end
+
+group :development, :test do
+  gem 'sqlite3-ruby', :require => 'sqlite3'
+end

@@ -9,7 +9,7 @@ guard 'bundler' do
   watch('Gemfile')
 end 
 
-guard 'migrate' do
+guard 'migrate', :run_on_start => true, :reset => true do
   watch(%r{^db/migrate/(\d+).+\.rb})
 end
 
