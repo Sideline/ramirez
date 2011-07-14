@@ -8,3 +8,8 @@ end
 guard 'bundler' do
   watch('Gemfile')
 end 
+
+guard 'migrate' do
+  watch(%r{^db/migrate/(\d+).+\.rb})
+end
+

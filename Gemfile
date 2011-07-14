@@ -6,6 +6,7 @@ gem 'simple_form'
 group 'development' do
   gem 'guard-rails'
   gem 'guard-bundler'
+  gem 'guard-migrate'
   gem 'growl'
   gem 'rb-fsevent'
 end
